@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+    int numero;
+    
+    printf("Dia da semana:");
+    
+    scanf("%d", &numero);
+    
+    switch(numero){
+        case 1:
+        printf("segunda");
+        break;
+        
+        case 2:
+        printf("terça");
+        break;
+        
+        case 3:
+        printf("quarta");
+        break;
+        
+        case 4:
+        printf("quinta");
+        break;
+        
+        case 5:
+        printf("sexta");
+        break;
+    
+        default:
+        printf("opção  invalida");
+    }
+    
+
+    return 0;
+}
